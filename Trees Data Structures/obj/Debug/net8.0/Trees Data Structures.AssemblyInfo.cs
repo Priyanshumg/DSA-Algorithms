@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trees Data Structures")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b634bad913fcd46fdc2530e7f805038be9f35603")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+564c1d433aeaf1d06051237e45d6d01bb1a14c2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trees Data Structures")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trees Data Structures")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
