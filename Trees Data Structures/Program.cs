@@ -12,10 +12,19 @@ class Program
 
         #region Binary Search Tree
 
+        int[] UnsortedArray = new int[6]
+        {
+            5, 3, 6, 2, 1, 8
+        };
+        
         BinarySearchTree BST = new BinarySearchTree();
-        BST.PopulateBST();
+        BST.InsertUnSortedArrayInBST(UnsortedArray);
+        BST.DisplayBST();
+
+        Console.WriteLine(new string('=', 30));
+        
+        BST.InsertSortedArray(UnsortedArray.OrderBy(i => i).ToArray());
         BST.DisplayBST();
         #endregion
-
     }
 }
