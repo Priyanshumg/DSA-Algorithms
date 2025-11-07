@@ -183,11 +183,15 @@ public class BinarySearchTree
                return SearchBST(node.GetRightNode(), value);
           return false;
      }
-
+     /// <summary>
+     /// Defaulter Display Pattern, will Display in PreOrder Traversal
+     /// Purpose is to Print BST on Console
+     /// Print Pattern: Node -> Left -> Right  
+     /// </summary>
      public void DisplayBST()
      {
           if (RootNode != null)
-               DisplayBST(node: RootNode, index: "");
+               DisplayBST_PreOrderTraversal(node: RootNode, index: "");
           else
           {
                Console.WriteLine("No Trees found would you like to create one and display? ");
@@ -197,13 +201,57 @@ public class BinarySearchTree
                DisplayBST();
           }
      }
-     
-     public void DisplayBST(Node node, string index)
+     /// <summary>
+     /// Pre Order Traversal Display, for console printing purposes
+     /// Print Pattern: Node -> Left -> Right
+     /// </summary>
+     /// <param name="node"> Node from which you want to iterate from </param>
+     /// <param name="index"> Index for indentation on console</param>
+     public void DisplayBST_PreOrderTraversal(Node node, string index)
      {
           if (node == null)
                return;
           Console.WriteLine(index + node.GetValue());
-          DisplayBST(node.GetLeftNode(), index + "\t");
-          DisplayBST(node.GetRightNode(), index + "\t");
+          DisplayBST_PreOrderTraversal(node.GetLeftNode(), index + "\t");
+          DisplayBST_PreOrderTraversal(node.GetRightNode(), index + "\t");
+     }
+
+     public void DisplayBST_InOrderTRaversal()
+     {
+          DisplayBST_InOrderTRaversal(RootNode, "");
+     }
+     /// <summary>
+     /// Prints BST in InOrder Traversal Format
+     /// Print Pattern - LeftNode -> Node -> RightNode
+     /// </summary>
+     /// <param name="node"></param>
+     /// <param name="index"></param>
+     private void DisplayBST_InOrderTRaversal(Node node, string index)
+     {
+          if (node == null)
+               return;
+          DisplayBST_InOrderTRaversal(node.GetLeftNode(), "\t");
+          Console.WriteLine(index + node.GetValue);
+          DisplayBST_InOrderTRaversal(node.GetRightNode(), "\t");
+     }
+
+     public void DisplayBST_PostOrderTraversal()
+     {
+          DisplayBST_PostOrderTraversal(RootNode, "");
+     }
+
+     /// <summary>
+     /// Prints BST in Post Order Traversal Format
+     /// Print Pattern - LeftNode -> RightNode -> Node
+     /// </summary>
+     /// <param name="node"></param>
+     /// <param name="index"></param>
+     private void DisplayBST_PostOrderTraversal(Node node, string index)
+     {
+          if (node == null)
+               return;
+          DisplayBST_PostOrderTraversal(node.GetLeftNode(), "\t");
+          DisplayBST_PostOrderTraversal(node.GetRightNode(), "\t");
+          Console.WriteLine(index + node.GetValue);
      }
 }
