@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Main/Main.csproj": {}
+  },
+  "projects": {
+    "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Main/Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Main/Main.csproj",
+        "projectName": "Main",
+        "projectPath": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Main/Main.csproj",
+        "packagesPath": "/Users/Priyanshu/.nuget/packages/",
+        "outputPath": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Main/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Priyanshu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Sorting Algorithms/Sorting Algorithms.csproj": {
+                "projectPath": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Sorting Algorithms/Sorting Algorithms.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Sorting Algorithms/Sorting Algorithms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Sorting Algorithms/Sorting Algorithms.csproj",
+        "projectName": "Sorting Algorithms",
+        "projectPath": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Sorting Algorithms/Sorting Algorithms.csproj",
+        "packagesPath": "/Users/Priyanshu/.nuget/packages/",
+        "outputPath": "/Users/Priyanshu/Desktop/Codes/Leet Code/DSA-Algorithms/Sorting Algorithms/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Priyanshu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
