@@ -7,7 +7,9 @@ class Program
     static void Main(string[] args)
     {
         // SelectionSort algo = new SelectionSort();
-        BubbleSort algo = new BubbleSort();
+        // BubbleSort algo = new BubbleSort();
+        // InsertionSort algo = new InsertionSort();
+        MergeSort algo = new MergeSort();
         var question = new[] { 7, 4, 1, 5, 3 };
         Console.Write("Printing Question: ");
         foreach (var element in question)
